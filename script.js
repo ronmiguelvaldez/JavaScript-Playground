@@ -19,14 +19,6 @@ document.getElementById('myButtonAge').onclick = () => {
         document.getElementById('age').innerHTML = " You're 18 years old"
     }
 }
-
-
-document.getElementById('count').onclick = () => {
-    let counter = 0;
-    
-}
-
-
 /*let a;
 let b;
 let c;
