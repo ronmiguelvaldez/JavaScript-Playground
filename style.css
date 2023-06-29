@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+.form, .hypo, .counter {
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding: 100px;
+    border: 0px solid white;
+    font-size: 20px;
+    transition: .3s;
+}
+.counter label {
+    font-size: 50px;
+}
+.form:hover, .hypo:hover, .counter:hover {
+    border: 10px solid white;
+    box-shadow: -50px 20px 100px cyan;
+    width: 60%;
+    border-radius: 20px;
+    padding: 110px;
+}
+.form:active, .hypo:active {
+    border: 5px solid white;
+    width: 50%;
+    padding: 100px;
+    box-shadow: -25px 10px 50px cyan;
+}
+.form input, .hypo input {
+    padding: 2px 3px;
+    width: 200px;
+    transition: .5s;
+}
+.form input:hover, .hypo input:hover {
+    padding: 4px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 100px white ;
+}
+.form input:active, .hypo input:active {
+    padding: 2px 3px;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: 10px 10px 50px yellow;
+}
+#myButtonAge, #myButton, #submitButton, #increaseBtn, #resetBtn, #decreaseBtn {
+    font-size: 16px;
+    margin: 10px 0px 10px;
+    width: 30mm;
+    transition: .5s;
+}
+#myButtonAge:hover, #myButton:hover, #submitButton:hover, #increaseBtn:hover, #resetBtn:hover, #decreaseBtn:hover {
+    box-shadow: 10px 10px 100px white;
+    margin: 10px;
+}
