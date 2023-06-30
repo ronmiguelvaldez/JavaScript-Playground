@@ -1,7 +1,7 @@
 body {
     background-color: black;
 }
-.form, .hypo, .counter {
+.form, .hypo, .counter, .rng {
     margin: 100px auto;
     width: 40%;
     text-align: center;
@@ -17,18 +17,17 @@ body {
 #hypo-title {
     text-transform: uppercase;
 }
-.form:hover, .hypo:hover, .counter:hover {
-    border: 10px solid white;
+.form:hover, .hypo:hover, .counter:hover, .rng:hover {
+    border: 5px solid white;
     box-shadow: -50px 20px 100px cyan;
     width: 50%;
     border-radius: 20px;
     padding: 110px;
 }
 .form:active, .hypo:active {
-    border: 5px solid white;
-    width: 50%;
+    border: 2px solid white;
     padding: 100px;
-    box-shadow: -25px 10px 50px cyan;
+    box-shadow: -10px 0px 50px cyan;
 }
 .form input, .hypo input {
     padding: 2px 3px;
@@ -47,16 +46,17 @@ body {
     border-radius: 0;
     box-shadow: 10px 10px 50px yellow;
 }
-#myButtonAge, #myButton, #submitButton, #increaseBtn, #resetBtn, #decreaseBtn {
-    font-size: 16px;
+#myButtonAge, #myButton, #submitButton, #increaseBtn, #resetBtn, #decreaseBtn, #rngButton {
+    font-size: 14px;
     margin: 10px 0px 10px;
     width: 30mm;
     transition: .3s;
 }
-#myButtonAge:hover, #myButton:hover, #submitButton:hover, #increaseBtn:hover, #resetBtn:hover, #decreaseBtn:hover {
+#myButtonAge:hover, #myButton:hover, #submitButton:hover, #increaseBtn:hover, #resetBtn:hover, #decreaseBtn:hover, #rngButton:hover {
     box-shadow: 10px 10px 100px white;
     margin: 10px;
 }
-#increaseBtn:active, #resetBtn:active, #decreaseBtn:active {
+#increaseBtn:active, #resetBtn:active, #decreaseBtn:active, #rngButton:active {
     box-shadow: 10px 10px 50px cyan;
+    border: 5px solid cyan;
 }
