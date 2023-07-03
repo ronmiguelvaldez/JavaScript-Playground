@@ -92,4 +92,11 @@ document.getElementById('tempbtn').onclick = () => {
     document.getElementById('tempkelvin').innerHTML = kelvin;
 }
 
+// Window Prompt using Do-While Loop
+let userName = '';
+do {
+    userName = window.prompt('Enter your name:')
+}while(userName == '' || userName == null);
 
+console.log('Hello', userName)
+document.getElementById('welcome').innerHTML = `Welcome to my Website ${userName}`
