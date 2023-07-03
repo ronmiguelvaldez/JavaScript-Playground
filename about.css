@@ -1,0 +1,5 @@
+body {
+    animation-name: about;
+    animation-duration: 1.5s;
+    transition: .5s;
+}
