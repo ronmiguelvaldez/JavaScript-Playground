@@ -5,6 +5,19 @@ body {
     background-color: black;
     color: white;
 }
+@keyframes about {
+   from {
+    background-color: white;
+    opacity: 0;
+    width: 400%;
+}
+   to {
+    background-color: black;
+    opacity: 1;
+    width: 100%;
+}
+}
+
 .name, .about, .skill, .video {
     padding: 50px 0px;
     text-align: center;
