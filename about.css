@@ -3,5 +3,7 @@ body {
     animation-duration: 1.5s;
     transition: .5s;
     text-align: center;
+    background-color: black;
+    color: white;
 }
 
