@@ -1,7 +1,13 @@
+// Change color buttons
 document.getElementById('myButton').onclick = () => {
     const myCheckBox = document.getElementById('checkred');
     const myCheckBoxBlue = document.getElementById('checkblue');
-    if(myCheckBox.checked) {
+    
+    if (myCheckBox.checked && myCheckBoxBlue.checked){
+        console.log('Pick only one color')
+        document.getElementById('bg').style.backgroundColor = 'black';
+        document.getElementById('bg').style.color = 'white';
+    }else if(myCheckBox.checked) {
         console.log('You are color red');
         document.getElementById('bg').style.backgroundColor = 'red';
     }else if(myCheckBoxBlue.checked) {
@@ -10,9 +16,10 @@ document.getElementById('myButton').onclick = () => {
     }else if(!myCheckBox.check & !myCheckBoxBlue.checked) {
         console.log('No Color Selected')
         document.getElementById('bg').style.backgroundColor = 'white';
+        document.getElementById('bg').style.color = 'black'
     }
 }
-
+// Choose Payment Method
 document.getElementById('cardbtn').onclick = () => {
     const visaBtn = document.getElementById('visaBtn');
     const mastercardBtn = document.getElementById('mastercardBtn');
@@ -32,11 +39,13 @@ document.getElementById('cardbtn').onclick = () => {
         document.getElementById('cardnote').innerHTML = '* You must choose a payment type *';
     }
 }
-
-
+// Your Grade Assessment
 document.getElementById('generategrade').onclick = () => {
-let grade = 70;
+let grade = document.getElementById('gradetext').value;
 switch(true){
+    case grade >= 100:
+        document.getElementById('grade').innerHTML = `* NaN *`;
+    break;
     case grade >= 90:
         document.getElementById('grade').innerHTML = `(${grade}) You did great! `;
     break;
