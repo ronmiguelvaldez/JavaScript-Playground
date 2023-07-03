@@ -83,4 +83,13 @@ document.getElementById('rngButton').onclick = () => {
      }
 }
 
-document.getElementById('about') = document.open('about.html')
+// Temperature Calculation 
+document.getElementById('tempbtn').onclick = () => {
+    let celcius = document.getElementById('tempcel').value;
+    let fahrenheit = (celcius * 9 / 5) + 32; 
+    let kelvin = Math.floor(celcius + 273.15)
+    document.getElementById('tempfar').innerHTML = fahrenheit;
+    document.getElementById('tempkelvin').innerHTML = kelvin;
+}
+
+
