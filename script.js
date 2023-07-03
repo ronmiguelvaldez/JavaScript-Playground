@@ -95,3 +95,4 @@ document.getElementById('rngButton').onclick = () => {
      }
 }
 
+document.getElementById('about') = document.open('about.html')
