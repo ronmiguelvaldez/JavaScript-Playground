@@ -3,14 +3,14 @@ body {
     color: white;
     text-align: center;
 }
-.form, .hypo, .counter, .rng, .aboutme, .header{
+.form, .hypo, .counter, .rng, .aboutme, .header, .temperature{
     margin: 100px auto;
     width: 40%;
     text-align: center;
     color: white;
     padding: 90px;
     border: 0px solid white;
-    font-size: 20px;
+    font-size: 16px;
     transition: .5s;
 }
 .counter label {
@@ -19,7 +19,7 @@ body {
 #hypo-title {
     text-transform: uppercase;
 }
-.form:hover, .hypo:hover, .counter:hover, .rng:hover, .aboutme:hover, .header:hover {
+.form:hover, .hypo:hover, .counter:hover, .rng:hover, .aboutme:hover, .header:hover, .temperature:hover {
     border: 2px solid white;
     box-shadow: -50px 20px 50px cyan;
     width: 50%;
@@ -51,12 +51,13 @@ body {
     padding: 100px;
     box-shadow: -10px 0px 50px cyan;
 }
-.form input, .hypo input {
+.form input, .hypo input, .temperature input {
     padding: 2px 3px;
     width: 200px;
     transition: .5s;
+    text-align: center;
 }
-.form input:hover, .hypo input:hover {
+.form input:hover, .hypo input:hover{
     padding: 4px;
     margin: 10px;
     border-radius: 20px;
