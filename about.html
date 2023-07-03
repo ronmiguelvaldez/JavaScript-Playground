@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="about.css">
 </head>
 <body id="bg">
+            <div class="color">
             <h1> Ron Miguel Valdez</h1>
             <label for="checkred"> Red </label>
             <input type="checkbox" id="checkred"> <br>
@@ -15,7 +16,9 @@
             <input type="checkbox" id="checkblue"><br>
             <button id="myButton"> Change Color</button><br>
             <br>
+            </div>
 
+            <div class="payment">
             <label for="visaBtn"> Visa</label>
             <input type="radio" name="card" id="visaBtn"> <br>
             <label for="mastercardBtn"> Master Card</label>
@@ -26,10 +29,14 @@
             <br>
             <h4 id="cardnote"></h4><br>
             <br>
+            </div>
 
-            <h2> Your grade:</h2>
-            <h3 id="grade"></h3>
+            <div class="grades">
+            <h2> Grade Assessment:</h2>
+            <input type="text" id="gradetext">
+            <h4 id="grade"></h4>
             <button id="generategrade"> Generate Grade</button>
+            </div>
     <script src="about.js"></script>
 </body>
 </html>
