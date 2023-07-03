@@ -1,7 +1,7 @@
 body {
     background-color: black;
 }
-.form, .hypo, .counter, .rng {
+.form, .hypo, .counter, .rng, .aboutme{
     margin: 100px auto;
     width: 40%;
     text-align: center;
@@ -17,12 +17,32 @@ body {
 #hypo-title {
     text-transform: uppercase;
 }
-.form:hover, .hypo:hover, .counter:hover, .rng:hover {
+.form:hover, .hypo:hover, .counter:hover, .rng:hover, .aboutme:hover {
     border: 5px solid white;
     box-shadow: -50px 20px 100px cyan;
     width: 50%;
     border-radius: 20px;
     padding: 110px;
+}
+.aboutme a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none; 
+    transition: .2s;
+}
+.aboutme:hover > a {
+    font-size: 30px; 
+}
+.aboutme a h1{
+    transition: .5s;
+}
+.aboutme a h1:hover {
+    margin: 30px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 20px yellow;
+}
+.aboutme a h1:active {
+    text-shadow: 10px 10px 50px wheat;
 }
 .form:active, .hypo:active {
     border: 2px solid white;
