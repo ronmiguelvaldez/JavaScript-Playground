@@ -1,3 +1,4 @@
+// Input Form Name
 document.getElementById('myButton').onclick = function() {
     const text = document.getElementById('myText').value;
     if (text == 'Ron Miguel'){
@@ -7,7 +8,9 @@ document.getElementById('myButton').onclick = function() {
     }else {
         document.getElementById('name').innerHTML = `Hello: ${text}`
     }
-};
+}
+
+// Input Age
 document.getElementById('myButtonAge').onclick = () => {
     let age = document.getElementById('myAge').value;
     age = Number(age);
@@ -19,20 +22,8 @@ document.getElementById('myButtonAge').onclick = () => {
         document.getElementById('age').innerHTML = " You're 18 years old"
     }
 }
-/*let a;
-let b;
-let c;
 
-a = window.prompt('Enter side A');
-a = Number(a);
-
-b = window.prompt('Enter side B');
-b = Number(b);
-
-c = Math.floor(Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2)));
-
-console.log('Side C:', c);*/
-
+// Computation of Hypotenues
 document.getElementById('submitButton').onclick = () => {
     a = document.getElementById('aTextBox').value;
     a = Number(a);
@@ -45,26 +36,23 @@ document.getElementById('submitButton').onclick = () => {
     document.getElementById('cLabel').innerHTML = 'Side C:' + c;
 }
 
-
+// Decrease, Reset and Increase Counter
 let count = 0;
-
 document.getElementById('increaseBtn').onclick = () => {
     count += 1;
     document.getElementById('count').innerHTML = count;
 }
-
 document.getElementById('resetBtn').onclick = () => {
     count = 0;
     document.getElementById('count').innerHTML = count;
 }
-
 document.getElementById('decreaseBtn').onclick = () => {
     count -= 1;
     document.getElementById('count').innerHTML = count;
 }
 
 
-
+//Qoute Generator
 let x;
 let y;
 let z;
