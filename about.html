@@ -7,14 +7,29 @@
     <title>About Me: </title>
     <link rel="stylesheet" href="about.css">
 </head>
-<body>
-    <div class="info">
-        <div class="myInfo">
+<body id="bg">
             <h1> Ron Miguel Valdez</h1>
-            <input type="checkbox" name="" id=""><label for="">Red</label>
-            <input type="checkbox" name="" id=""><label for="">Blue</label>
-        </div>
-    </div>
+            <label for="checkred"> Red </label>
+            <input type="checkbox" id="checkred"> <br>
+            <label for="checkblue"> Blue</label>
+            <input type="checkbox" id="checkblue"><br>
+            <button id="myButton"> Change Color</button><br>
+            <br>
+
+            <label for="visaBtn"> Visa</label>
+            <input type="radio" name="card" id="visaBtn"> <br>
+            <label for="mastercardBtn"> Master Card</label>
+            <input type="radio" name="card" id="mastercardBtn"> <br>
+            <label for="paypalBtn"> Paypal</label>
+            <input type="radio" name="card" id="paypalBtn"> <br>
+            <button id="cardbtn"> Pay Card</button>
+            <br>
+            <h4 id="cardnote"></h4><br>
+            <br>
+
+            <h2> Your grade:</h2>
+            <h3 id="grade"></h3>
+            <button id="generategrade"> Generate Grade</button>
     <script src="about.js"></script>
 </body>
 </html>
