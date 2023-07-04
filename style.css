@@ -5,6 +5,9 @@ body {
     scroll-behavior: smooth;
     text-align: center;
 }
+label {
+    font-size: 25px;
+}
 /* Every Form Style*/
 .form, .hypo, .counter, .rng, .aboutme, .header, .temperature{
     margin: 100px auto;
@@ -15,6 +18,13 @@ body {
     border: 0px solid white;
     font-size: 16px;
     transition: .5s;
+}
+.form:hover, .hypo:hover, .counter:hover, .rng:hover, .aboutme:hover, .header:hover, .temperature:hover {
+    border: 2px solid white;
+    box-shadow: -50px 20px 50px cyan;
+    width: 50%;
+    border-radius: 20px;
+    padding: 160px;
 }
 .navigation {
     margin: 50px;
@@ -31,19 +41,19 @@ body {
 .navigation label {
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
     font-weight: bold;
 }
 .navigation a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 20px;
     color: white;
-    transition: .4s;
+    transition: .2s;
 }
 .navigation a:hover {
     padding-bottom: 16px; 
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: -1px 1px 5px cyan;
 }
 .navigation a:active {
@@ -55,26 +65,22 @@ body {
 #hypo-title {
     text-transform: uppercase;
 }
-.form:hover, .hypo:hover, .counter:hover, .rng:hover, .aboutme:hover, .header:hover, .temperature:hover {
-    border: 2px solid white;
-    box-shadow: -50px 20px 50px cyan;
-    width: 50%;
-    border-radius: 20px;
-    padding: 130px;
-}
 /* About Me Div*/
 .aboutme a {
-    font-size: 20px;
-    color: white;
+    
+    
     text-decoration: none; 
 }
 .aboutme a h1{
     transition: .5s;
+    color: white;
+    font-size: 30px;
 }
 .aboutme a h1:hover {
     margin: 30px;
+    font-size: 40px;
     text-decoration: underline;
-    text-shadow: 1px 1px 50px yellow;
+    text-shadow: 50px 50px 7px yellow;
 }
 .aboutme a h1:active {
     text-shadow: 1px 1px 50px wheat;
@@ -82,11 +88,12 @@ body {
 /* Input Styles*/
 .form input, .hypo input, .temperature input {
     padding: 2px 3px;
+    font-size: 20px;
     width: 200px;
     transition: .5s;
     text-align: center;
 }
-.form input:hover, .hypo input:hover{
+.form input:hover, .hypo input:hover, .temperature input:hover{
     padding: 3px;
     border-radius: 10px;
     box-shadow: 10px 10px 100px white ;
@@ -99,17 +106,18 @@ body {
 }
 
 /* Button Styles*/
-#myButtonAge, #myButton, #submitButton, #increaseBtn, #resetBtn, #decreaseBtn, #rngButton {
-    font-size: 14px;
+#myButtonAge, #myButton, #submitButton, #increaseBtn, #resetBtn, #decreaseBtn, #rngButton, #tempbtn {
+    font-size: 20px;
     margin: 10px 0px 10px;
     padding: 5px;
-    width: 20mm;
+    width: 40mm;
     transition: .3s;
 }
-#myButtonAge:hover, #myButton:hover, #submitButton:hover, #increaseBtn:hover, #resetBtn:hover, #decreaseBtn:hover, #rngButton:hover {
+#myButtonAge:hover, #myButton:hover, #submitButton:hover, #increaseBtn:hover, #resetBtn:hover, #decreaseBtn:hover, #rngButton:hover, #tempbtn:hover {
     box-shadow: 1px 10px 50px cyan;
     background-color: black;
     color: white;
+    width: 42mm;
     margin: 15px;
     padding: 7px;
 }
