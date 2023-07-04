@@ -30,10 +30,6 @@ body {
     font-size: 20px;
     color: white;
     text-decoration: none; 
-    transition: .2s;
-}
-.aboutme:hover > a {
-    font-size: 30px; 
 }
 .aboutme a h1{
     transition: .5s;
@@ -41,10 +37,10 @@ body {
 .aboutme a h1:hover {
     margin: 30px;
     text-decoration: underline;
-    text-shadow: 1px 1px 20px yellow;
+    text-shadow: 1px 1px 50px yellow;
 }
 .aboutme a h1:active {
-    text-shadow: 10px 10px 50px wheat;
+    text-shadow: 1px 1px 50px wheat;
 }
 .form input, .hypo input, .temperature input {
     padding: 2px 3px;
