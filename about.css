@@ -17,8 +17,8 @@ body {
     width: 100%;
     }
 }*/
-
-.name, .about, .skill, .video, .contact, #con {
+/* Styles for every form and divs*/
+.name, .about, .skill, .video, .contact, #con, .link {
     padding: 50px 0px;
     text-align: center;
     margin: 100px 30px;
@@ -35,6 +35,8 @@ body {
     border-radius: 20px;
     font-size: small;
 }
+
+/* My style for My Skills*/
 .skills {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -54,6 +56,7 @@ body {
 .video video {
     width: 100%;
 }
+/* My Contact Styles*/
 .contact a {
     transition: .5s;
     color: white;
@@ -81,5 +84,24 @@ body {
     text-shadow: 5px 5px 7px #4078c0;
     font-size: 50px;
     border-radius: 20%;
+}
+
+
+
+/* My Link back to index.html*/
+.link a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    transition: .5s;
+}
+.link a:hover {
+    text-shadow: 1px 1px 50px yellow;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.link a:active {
+    text-shadow: 1px 1px 50px cyan;
+    font-size: 27px;
 }
 
