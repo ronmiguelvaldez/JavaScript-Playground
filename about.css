@@ -18,16 +18,15 @@ body {
     }
 }*/
 /* Styles for every form and divs*/
-.name, .about, .skill, .video, .contact, #con, .link {
+.name, .about, .skill, .video, .contact, .link {
     padding: 50px 0px;
-    text-align: center;
     margin: 100px 30px;
     transition: .5s;
 }
 .about p {
-    font-size: 14px;
+    font-size: 20px;
 }
-.name:hover,.about:hover, .skill:hover, .video:hover, .contact:hover{
+.name:hover,.about:hover, .skill:hover, .video:hover, .contact:hover, .link:hover{
     padding: 100px;
     margin: 100px 50px;
     box-shadow: -20px 10px 50px cyan;
@@ -53,6 +52,7 @@ body {
     width: 70%;
     margin: 10px;
 }
+/* Video Style*/
 .video video {
     width: 100%;
 }
@@ -61,32 +61,31 @@ body {
     transition: .5s;
     color: white;
 }
-.contact:hover a {
+.contact:hover a, .contact:hover h1 {
     margin: 50px;
     font-size: 40px;
 }
-.contact a:nth-child(1):hover{
-    text-shadow: 5px 5px 7px blue;
-    font-size: 50px;
-    border-radius: 20%;
-}
 .contact a:nth-child(2):hover{
-    text-shadow: 5px 5px 7px cyan;
+    text-shadow: 35px 5px 7px blue;
     font-size: 50px;
     border-radius: 20%;
 }
 .contact a:nth-child(3):hover{
-    text-shadow: 5px 5px 7px pink; 
+    text-shadow: 45px 5px 7px cyan;
     font-size: 50px;
     border-radius: 20%;
 }
-.contact a:nth-child(4):hover {
-    text-shadow: 5px 5px 7px #4078c0;
+.contact a:nth-child(4):hover{
+    text-shadow: 45px 5px 7px rgb(244, 6, 244); 
     font-size: 50px;
     border-radius: 20%;
 }
-
-
+.contact a:nth-child(5):hover {
+    text-shadow: 45px 5px 7px purple;
+    font-size: 50px;
+    border-radius: 20%;
+    
+}
 
 /* My Link back to index.html*/
 .link a {
@@ -105,3 +104,31 @@ body {
     font-size: 27px;
 }
 
+/* Class Form Input Style*/
+.form {
+    padding: 100px;
+    transition: .5s;
+}
+.form:hover {
+    border: 3px solid white;
+    margin: 0px 50px;
+    border-radius: 20px;
+    box-shadow: -10px 10px 50px cyan;
+}
+.form h1 {
+    transition: .5s;
+}
+.form:hover h1 {
+    font-size: 45px; 
+}
+#visitoremail{
+    padding: 2px 3px;
+    width: 50%;
+    font-size: 16px;
+    transition: .5s;
+}
+#visitormessage {
+    width: 70%;
+    height: 200px;
+    font-size: 20px;
+}
