@@ -8,7 +8,7 @@ body {
     width: 40%;
     text-align: center;
     color: white;
-    padding: 90px;
+    padding: 150px;
     border: 0px solid white;
     font-size: 16px;
     transition: .5s;
@@ -24,7 +24,7 @@ body {
     box-shadow: -50px 20px 50px cyan;
     width: 50%;
     border-radius: 20px;
-    padding: 100px;
+    padding: 130px;
 }
 .aboutme a {
     font-size: 20px;
@@ -46,11 +46,6 @@ body {
 .aboutme a h1:active {
     text-shadow: 10px 10px 50px wheat;
 }
-.form:active, .hypo:active {
-    border: 2px solid white;
-    padding: 100px;
-    box-shadow: -10px 0px 50px cyan;
-}
 .form input, .hypo input, .temperature input {
     padding: 2px 3px;
     width: 200px;
@@ -58,9 +53,8 @@ body {
     text-align: center;
 }
 .form input:hover, .hypo input:hover{
-    padding: 4px;
-    margin: 10px;
-    border-radius: 20px;
+    padding: 3px;
+    border-radius: 10px;
     box-shadow: 10px 10px 100px white ;
 }
 .form input:active, .hypo input:active {
@@ -72,14 +66,19 @@ body {
 #myButtonAge, #myButton, #submitButton, #increaseBtn, #resetBtn, #decreaseBtn, #rngButton {
     font-size: 14px;
     margin: 10px 0px 10px;
-    width: 30mm;
+    padding: 5px;
+    width: 20mm;
     transition: .3s;
 }
 #myButtonAge:hover, #myButton:hover, #submitButton:hover, #increaseBtn:hover, #resetBtn:hover, #decreaseBtn:hover, #rngButton:hover {
-    box-shadow: 10px 10px 100px white;
-    margin: 10px;
+    box-shadow: 1px 10px 50px cyan;
+    background-color: black;
+    color: white;
+    margin: 15px;
+    padding: 7px;
 }
-#increaseBtn:active, #resetBtn:active, #decreaseBtn:active, #rngButton:active {
-    box-shadow: 10px 10px 50px cyan;
-    border: 5px solid cyan;
+#increaseBtn:active, #resetBtn:active, #decreaseBtn:active, #rngButton:active, #myButtonAge:active, #myButton:active,#rngButton:active {
+    box-shadow: 1px 10px 50px darkcyan;
+    background-color: gray;
+    color: black;
 }
