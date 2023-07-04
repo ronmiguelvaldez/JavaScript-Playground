@@ -1,3 +1,7 @@
+// Greetings for my web visitors
+let pangalan = window.prompt('Enter your name: ');
+alert(`Hello, ${pangalan} this website is about me, my skills and my portfolio `);
+
 // Choose Payment Method
 document.getElementById('cardbtn').onclick = () => {
     const visaBtn = document.getElementById('visaBtn');
