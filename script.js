@@ -100,3 +100,5 @@ do {
 
 console.log('Hello', userName)
 document.getElementById('welcome').innerHTML = `Welcome to my Website ${userName}`
+
+// For Loop Generator
