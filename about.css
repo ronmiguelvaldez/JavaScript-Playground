@@ -5,18 +5,6 @@ body {
     background-color: black;
     color: white;
 }
-/*@keyframes about {
-   from {
-    background-color: white;
-    opacity: 0;
-    width: 400%;
-    }
-   to {
-    background-color: black;
-    opacity: 1;
-    width: 100%;
-    }
-}*/
 /* Styles for every form and divs*/
 .name, .about, .skill, .video, .contact, .link {
     padding: 50px 0px;
