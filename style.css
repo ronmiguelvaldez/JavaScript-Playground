@@ -17,7 +17,7 @@ label {
     font-size: 25px;
 }
 /* Every Form Style*/
-.form, .hypo, .counter, .rng, .aboutme, .header, .temperature, .forloop{
+.form, .hypo, .counter, .rng, .aboutme, .header, .temperature, .forloop, .order{
     margin: 100px auto;
     width: 40%;
     text-align: center;
@@ -94,7 +94,7 @@ label {
     text-shadow: 1px 1px 50px wheat;
 }
 /* Input Styles*/
-.form input, .hypo input, .temperature input {
+.form input, .hypo input, .temperature input, #quantity {
     padding: 2px 3px;
     font-size: 20px;
     width: 200px;
@@ -114,7 +114,7 @@ label {
 }
 
 /* Button Styles*/
-#myButtonAge, #myButton, #submitButton, #increaseBtn, #resetBtn, #decreaseBtn, #rngButton, #tempbtn, #openprompt {
+#myButtonAge, #myButton, #submitButton, #increaseBtn, #resetBtn, #decreaseBtn, #rngButton, #tempbtn, #openprompt, #totalorder {
     font-size: 20px;
     margin: 10px 0px 10px;
     padding: 5px;
