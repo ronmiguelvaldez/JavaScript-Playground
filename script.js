@@ -114,3 +114,15 @@ document.getElementById('openprompt').onclick = () => {
         document.getElementById('forlooprowcol').innerHTML += "<br>"
     }
 }
+
+// Order System 
+document.getElementById('totalorder').onclick = () => {
+    let item = "Cinnamon";
+    let price = "100";
+    let quantity = document.getElementById('quantity').value;
+    let total = null;
+
+    total = quantity * price;
+    document.getElementById('purchase').innerHTML = `You have ordered ${quantity} x ${item}/s`;
+    document.getElementById('total').innerHTML = `Your total amount is: ₱${total}`
+}
