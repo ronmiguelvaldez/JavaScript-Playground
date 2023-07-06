@@ -102,3 +102,15 @@ console.log('Hello', userName)
 document.getElementById('welcome').innerHTML = `Welcome to my Website ${userName}`
 
 // For Loop Generator
+document.getElementById('openprompt').onclick = () => {
+    let symbol = window.prompt('Enter a symbol to use')
+    let row = window.prompt('Enter a number of rows');
+    let column = window.prompt('Enter a number of columns');
+
+    for(let i = 1; i <= row; i+=1){
+        for(let j = 1; j <= column; j+= 1){
+            document.getElementById('forlooprowcol').innerHTML += symbol;
+        }
+        document.getElementById('forlooprowcol').innerHTML += "<br>"
+    }
+}
