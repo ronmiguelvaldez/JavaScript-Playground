@@ -12,7 +12,7 @@ label {
     font-size: 25px;
 }
 /* Every Form Style*/
-.form, .hypo, .counter, .rng, .aboutme, .header, .temperature{
+.form, .hypo, .counter, .rng, .aboutme, .header, .temperature, .forloop{
     margin: 100px auto;
     width: 40%;
     text-align: center;
