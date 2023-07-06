@@ -132,10 +132,28 @@ label {
 #welcome {
     transition: .5s ease-out;
     text-transform: uppercase;
+    animation-name: glowing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     font-size: 20px;
 }
-#welcome:hover {
-    font-size: 25px;
-    text-shadow: -20px 20px 20px cyan;
-
+@keyframes glowing {
+    0% {
+        text-shadow: 1px 1px 10px cyan; 
+        font-size: 20px;
+    }
+    25% {
+        text-shadow: -5px 10px 15px darkcyan;
+    }
+    50% {
+        text-shadow: -10px 20px 10px cyan;
+        font-size: 25px;
+    }
+    75% {
+        text-shadow: -5px 10px 15px darkcyan ;
+    }
+    100% {
+        text-shadow: 0px 0px 10px cyan;
+        font-size: 20px;
+    }
 }
