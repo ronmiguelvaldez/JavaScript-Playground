@@ -17,7 +17,7 @@ label {
     font-size: 25px;
 }
 /* Every Form Style*/
-.form, .hypo, .counter, .rng, .aboutme, .header, .temperature, .forloop, .order{
+.form, .hypo, .counter, .rng, .aboutme, .header, .temperature, .forloop, .order, .max, .min{
     margin: 100px auto;
     width: 40%;
     text-align: center;
@@ -27,7 +27,7 @@ label {
     font-size: 16px;
     transition: .5s;
 }
-.form:hover, .hypo:hover, .counter:hover, .rng:hover, .aboutme:hover, .header:hover, .temperature:hover {
+.form:hover, .hypo:hover, .counter:hover, .rng:hover, .aboutme:hover, .header:hover, .temperature:hover, .max:hover, .order:hover, .min:hover, .forloop:hover {
     border: 2px solid white;
     box-shadow: -50px 20px 50px cyan;
     width: 50%;
@@ -94,9 +94,10 @@ label {
     text-shadow: 1px 1px 50px wheat;
 }
 /* Input Styles*/
-.form input, .hypo input, .temperature input, #quantity {
+.form input, .hypo input, .temperature input, #quantity ,#xmax,#ymax,#zmax,#xmin,#ymin, #zmin{
     padding: 2px 3px;
     font-size: 20px;
+    margin: 10px;
     width: 200px;
     transition: .5s;
     text-align: center;
@@ -114,18 +115,18 @@ label {
 }
 
 /* Button Styles*/
-#myButtonAge, #myButton, #submitButton, #increaseBtn, #resetBtn, #decreaseBtn, #rngButton, #tempbtn, #openprompt, #totalorder {
+#myButtonAge, #myButton, #submitButton, #increaseBtn, #resetBtn, #decreaseBtn, #rngButton, #tempbtn, #openprompt, #totalorder, #maxbutton, #minbutton {
     font-size: 20px;
     margin: 10px 0px 10px;
     padding: 5px;
-    width: 40mm;
+    width: 40%;
     transition: .3s;
 }
 #myButtonAge:hover, #myButton:hover, #submitButton:hover, #increaseBtn:hover, #resetBtn:hover, #decreaseBtn:hover, #rngButton:hover, #tempbtn:hover {
     box-shadow: 1px 10px 50px cyan;
     background-color: black;
     color: white;
-    width: 42mm;
+    width: 43%;
     margin: 15px;
     padding: 7px;
 }
