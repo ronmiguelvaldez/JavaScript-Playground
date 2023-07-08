@@ -122,16 +122,13 @@ label {
     width: 40%;
     transition: .3s;
 }
-#myButtonAge:hover, #myButton:hover, #submitButton:hover, #increaseBtn:hover, #resetBtn:hover, #decreaseBtn:hover, #rngButton:hover, #tempbtn:hover {
-    box-shadow: 1px 10px 50px cyan;
-    background-color: black;
+#myButtonAge:hover, #myButton:hover, #submitButton:hover, #increaseBtn:hover, #resetBtn:hover, #decreaseBtn:hover, #rngButton:hover, #tempbtn:hover,#openprompt:hover, #totalorder:hover, #maxbutton:hover, #minbutton:hover  {
+    background-color: #333;
     color: white;
     width: 43%;
-    margin: 15px;
     padding: 7px;
 }
-#increaseBtn:active, #resetBtn:active, #decreaseBtn:active, #rngButton:active, #myButtonAge:active, #myButton:active,#rngButton:active {
-    box-shadow: 1px 10px 50px darkcyan;
+#myButtonAge:active, #myButton:active, #submitButton:active, #increaseBtn:active, #resetBtn:active, #decreaseBtn:active, #rngButton:active, #tempbtn:active, #openprompt:active, #totalorder:active, #maxbutton:active, #minbutton:active  {
     background-color: gray;
     color: black;
 }
