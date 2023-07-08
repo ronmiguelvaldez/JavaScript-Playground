@@ -17,7 +17,7 @@ label {
     font-size: 25px;
 }
 /* Every Form Style*/
-.form, .hypo, .counter, .rng, .aboutme, .header, .temperature, .forloop, .order, .max, .min{
+div{
     margin: 100px auto;
     width: 40%;
     text-align: center;
@@ -27,24 +27,12 @@ label {
     font-size: 16px;
     transition: .5s;
 }
-.form:hover, .hypo:hover, .counter:hover, .rng:hover, .aboutme:hover, .header:hover, .temperature:hover, .max:hover, .order:hover, .min:hover, .forloop:hover {
+div:hover{
     border: 2px solid white;
     box-shadow: -50px 20px 50px cyan;
     width: 50%;
     border-radius: 20px;
     padding: 160px;
-}
-.navigation {
-    margin: 50px;
-    padding: 50px;
-    transition: .5s;
-}
-.navigation:hover {
-    margin: 70px;
-    padding: 70px;
-    box-shadow: -50px 20px 50px cyan;
-    border-radius: 20px;
-    border: 1px solid white;
 }
 .navigation label {
     text-transform: uppercase;
@@ -75,8 +63,6 @@ label {
 }
 /* About Me Div*/
 .aboutme a {
-    
-    
     text-decoration: none; 
 }
 .aboutme a h1{
@@ -94,7 +80,7 @@ label {
     text-shadow: 1px 1px 50px wheat;
 }
 /* Input Styles*/
-.form input, .hypo input, .temperature input, #quantity ,#xmax,#ymax,#zmax,#xmin,#ymin, #zmin{
+input{
     padding: 2px 3px;
     font-size: 20px;
     margin: 10px;
@@ -102,33 +88,33 @@ label {
     transition: .5s;
     text-align: center;
 }
-.form input:hover, .hypo input:hover, .temperature input:hover{
+input:hover{
     padding: 3px;
+    border: 3px solid cyan;
     border-radius: 10px;
     box-shadow: 10px 10px 100px white ;
 }
-.form input:active, .hypo input:active {
+input:active{
     padding: 2px 3px;
     margin: 0;
     border-radius: 0;
-    box-shadow: 10px 10px 50px yellow;
 }
 
 /* Button Styles*/
-#myButtonAge, #myButton, #submitButton, #increaseBtn, #resetBtn, #decreaseBtn, #rngButton, #tempbtn, #openprompt, #totalorder, #maxbutton, #minbutton {
+button {
     font-size: 20px;
     margin: 10px 0px 10px;
     padding: 5px;
     width: 40%;
     transition: .3s;
 }
-#myButtonAge:hover, #myButton:hover, #submitButton:hover, #increaseBtn:hover, #resetBtn:hover, #decreaseBtn:hover, #rngButton:hover, #tempbtn:hover,#openprompt:hover, #totalorder:hover, #maxbutton:hover, #minbutton:hover  {
+button:hover {
     background-color: #333;
     color: white;
     width: 43%;
     padding: 7px;
 }
-#myButtonAge:active, #myButton:active, #submitButton:active, #increaseBtn:active, #resetBtn:active, #decreaseBtn:active, #rngButton:active, #tempbtn:active, #openprompt:active, #totalorder:active, #maxbutton:active, #minbutton:active  {
+button:active{
     background-color: gray;
     color: black;
 }
