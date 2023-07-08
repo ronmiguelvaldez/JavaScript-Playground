@@ -54,8 +54,6 @@ document.getElementById('decreaseBtn').onclick = () => {
 
 //Qoute Generator
 let x;
-let y;
-let z;
 document.getElementById('rngButton').onclick = () => {
 
      x = Math.floor(Math.random() * 10) + 1;
@@ -125,4 +123,23 @@ document.getElementById('totalorder').onclick = () => {
     total = quantity * price;
     document.getElementById('purchase').innerHTML = `You have ordered ${quantity} x ${item}/s`;
     document.getElementById('total').innerHTML = `Your total amount is: ₱${total}`
+}
+// Maximum Number 
+document.getElementById('maxbutton').onclick = () => {
+    let xmax = document.getElementById('xmax').value;
+    let ymax = document.getElementById('ymax').value;
+    let zmax = document.getElementById('zmax').value;
+    let totalMax = Math.max(xmax, ymax, zmax);
+
+    document.getElementById('maximum-number').innerHTML = totalMax;
+}
+
+// Minimum Number 
+document.getElementById('minbutton').onclick = () => {
+    let xmin = document.getElementById('xmin').value;
+    let ymin = document.getElementById('ymin').value;
+    let zmin = document.getElementById('zmin').value;
+    let totalMin = Math.min(xmin, ymin, zmin);
+    
+    document.getElementById('minimum-number').innerHTML = totalMin;
 }
