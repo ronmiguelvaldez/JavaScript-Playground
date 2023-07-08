@@ -10,15 +10,16 @@
 <body>
     <div class="navigation">
         <label for="">Table of Contents: </label><br>
-        <a href="#myText">Form</a> <br>
+        <a href="#formtitle">Form</a> <br>
         <a href="#hypo-title">Hypotenues Computation</a> <br>
-        <a href="#count">Counter Form</a> <br>
-        <a href="#xLabel">Qoute Generator</a> <br>
-        <a href="#tempcel">Celcius Converter</a><br>
-        <a href="#openprompt">For Loop Generator</a><br>
-        <a href="#maxbutton"> Maximum Number</a><br>
-        <a href="#minbutton"> Minimum Number </a><br>
-        <a href="#hour"> Payroll Computation</a>
+        <a href="#countertitle">Counter Form</a> <br>
+        <a href="#rngtitle">Qoute Generator</a> <br>
+        <a href="#temperaturetitle">Celcius Converter</a><br>
+        <a href="#flp">For Loop Generator</a><br>
+        <a href="#ordertitle"> Order System </a><br>
+        <a href="#maxtitle"> Maximum Number</a><br>
+        <a href="#mintitle"> Minimum Number </a><br>
+        <a href="#ottitle"> Payroll Computation</a>
     </div>
     <div class="header">
     <h1> Javascript Playground</h1>
@@ -27,6 +28,7 @@
     </div>
     <!-- Input Form Name and Age-->
     <div class="form">
+        <h1 id="formtitle"> Form</h1>
         <label> Enter your name: </label><br>
         <input type="text" id="myText"><br>
         <label> Enter your age: </label><br>
@@ -50,6 +52,7 @@
     <br>
     <!-- Counter Div -->
     <div class="counter"> 
+        <h1 id="countertitle"> Counter</h1>
         <label id="count"> 0 </label><br>
         <button type="button" id="decreaseBtn"> decrease</button>
         <button type="button" id="resetBtn"> reset </button>
@@ -58,12 +61,14 @@
     <br> 
     <!-- Random Qoute Generator-->
     <div class="rng">
+        <h1 id="rngtitle"> Random Qouter Generator</h1>
         <label id="qoutelabel"></label><br><br>
         <button id="rngButton" type="button"> Generate Qoute</button>
     </div>
     <br>
     <!-- Temperature Celcius to Fahrenheit & Kelvin-->
     <div class="temperature">
+        <h1 id="temperaturetitle">Celcius Converter</h1>
         <input type="text" id="tempcel" placeholder="Celcius"><br>
         <label for="tempcel" id="tempfar"> Fahrenheit</label><br>
         <label id="tempkelvin">Kelvin</label><br>
@@ -79,7 +84,7 @@
     <br>
     <!-- Ordering System -->
     <div class="order">
-        <h1>Order System</h1>
+        <h1 id="ordertitle">Order System</h1>
         <h2 id="purchase">*How many Cinnamon you want? *</h2>
         <h2 id="total">0</h2>
         <input type="number" id="quantity" placeholder="Place your order">
@@ -87,7 +92,7 @@
     </div>
     <!-- Finding the Largest Number -->
     <div class="max">
-        <h1> Maximum Number</h1>
+        <h1 id="maxtitle"> Maximum Number</h1>
         <label> x:</label>
         <input type="text" id="xmax"><br>
         <label> y:</label>
@@ -99,7 +104,7 @@
     </div>
     <!-- Finding the Smallest Number-->
     <div class="min">
-        <h1> Minimum Number:</h1>
+        <h1 id="mintitle"> Minimum Number:</h1>
         <label> x:</label>
         <input type="text" id="xmin"><br>
         <label> y:</label>
@@ -111,7 +116,7 @@
     </div>
     <!-- Overtime Pay Computation-->
     <div class="overtime">
-        <h1> Payroll Computation</h1>
+        <h1 id="ottitle"> Payroll Computation</h1>
         <label> Hour: </label>
         <input type="text" id="hour"><br>
         <label> Rate: $15 </label><br>
