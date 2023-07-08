@@ -143,3 +143,19 @@ document.getElementById('minbutton').onclick = () => {
     
     document.getElementById('minimum-number').innerHTML = totalMin;
 }
+// Payroll Computation with Hour 
+document.getElementById('otcompute').onclick = () => {
+    let hour = document.getElementById('hour').value;
+    let rate = 15;
+    let weeklypay = null;
+    let hours = Number(hour);
+    
+    if (hours <= 0){
+        weeklypay = 0;
+    }else if (hours <= 40) {
+        weeklypay = hour * rate;
+    }else {
+        weeklypay = (rate * 40) +  ((hour - 40) * (rate * 1.5))
+    }
+    document.getElementById('otpay').innerHTML = `Your weekly pay is: ${weeklypay}`
+}
