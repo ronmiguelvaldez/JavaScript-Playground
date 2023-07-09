@@ -160,3 +160,21 @@ document.getElementById('otcompute').onclick = () => {
     }
     document.getElementById('otpay').innerHTML = `Your weekly pay is: ${weeklypay}`
 }
+// Movie Price Check 
+document.getElementById('moviebutton').onclick = () => {
+    let kid = document.getElementById('kid').checked;
+    let senior = document.getElementById('senior').checked;
+    let regular = document.getElementById('regular').checked;
+
+    if (!kid && !senior && !regular ){
+        document.getElementById('movieprice').innerHTML = "Checkbox is Required*";
+    }else if (kid && !senior && !regular){
+        document.getElementById('movieprice').innerHTML = "The movie price is $12";
+    }else if (!kid && senior && !regular){
+        document.getElementById('movieprice').innerHTML = "The movie price is $10";
+    }else if(!kid && !senior && regular){
+        document.getElementById('movieprice').innerHTML = "The movie price is $15";
+    }else {
+        document.getElementById('movieprice').innerHTML = "One checked item only";
+    }
+}
