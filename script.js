@@ -178,3 +178,12 @@ document.getElementById('moviebutton').onclick = () => {
         document.getElementById('movieprice').innerHTML = "One checked item only";
     }
 }
+// Hiding a Div 
+/*document.getElementById('hidebutton').onclick = () => {
+    let hide = document.getElementById('hidediv');
+    if (hide.style.display === "none"){
+        hide.style.display = "block";
+    }else {
+        hide.style.display = "none";
+    }
+}*/
