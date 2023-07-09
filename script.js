@@ -1,4 +1,4 @@
-alert(new Date())
+alert(new Date());
 // Input Form Name
 document.getElementById('myButton').onclick = function() {
     const text = document.getElementById('myText').value;
