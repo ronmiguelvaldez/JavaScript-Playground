@@ -92,8 +92,6 @@ input{
     text-align: center;
 }
 input:hover{
-    padding: 3px;
-    border: 3px solid cyan;
     border-radius: 10px;
     box-shadow: 10px 10px 100px white ;
 }
@@ -114,12 +112,9 @@ button {
 button:hover {
     background-color: #333;
     color: white;
-    width: 43%;
-    padding: 7px;
 }
 button:active{
     background-color: gray;
-    color: black;
 }
 #welcome {
     transition: .5s ease-out;
