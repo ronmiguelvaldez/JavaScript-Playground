@@ -2,7 +2,7 @@ body {
     animation-name: about;
     animation-duration: 1.5s;
     transition: .5s;
-    background-color: black;
+    background: linear-gradient( #000000 0%, rgb(41, 40, 40) 51%, gray 75%);
     color: white;
 }
 /* Styles for every form and divs*/
