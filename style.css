@@ -3,7 +3,7 @@ html {
     transition: 1s;
 }
 body {
-    background: linear-gradient(black 0%, #333 50%,  black 75%);
+    background: linear-gradient(black 0%, darkblue 50%,  darkcyan 75%);
     color: white;
     transition: .5s;
     text-align: center;
