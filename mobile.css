@@ -1,0 +1,135 @@
+html {
+    scroll-behavior: smooth;
+    transition: 1s;
+}
+body {
+    background-color: black;
+    color: white;
+    transition: .5s;
+    text-align: center;
+    animation-name: body;   
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+}
+label {
+    font-size: 25px;
+}
+/* Every Form Style*/
+div{
+    margin: 100px auto;
+    width: 40%;
+    text-align: center;
+    color: white;
+    padding: 90px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: .5s;
+}
+div:hover{
+    box-shadow: -20px 10px 10px white;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.navigation label {
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.navigation a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    transition: .1s;
+}
+.navigation a:hover {
+    padding-bottom: 12px; 
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-decoration: underline;
+    text-shadow: -1px 1px 5px cyan;
+}
+.navigation a:active {
+    color: white;
+}
+.counter label {
+    font-size: 50px;
+}
+#hypo-title {
+    text-transform: uppercase;
+}
+/* About Me Div*/
+.aboutme a {
+    text-decoration: none; 
+}
+.aboutme a h1{
+    transition: .5s;
+    color: white;
+    font-size: 30px;
+}
+.aboutme a h1:hover {
+    margin: 30px;
+    font-size: 40px;
+    text-decoration: underline;
+    text-shadow: 0px 0px 50px yellow;
+}
+.aboutme a h1:active {
+    text-shadow: 1px 1px 50px wheat;
+}
+/* Input Styles*/
+input{
+    padding: 2px 3px;
+    font-size: 20px;
+    margin: 10px;
+    width: 150px;
+    transition: .5s;
+    text-align: center;
+}
+input:hover{
+    border-radius: 10px;
+    box-shadow: 10px -10px 100px white ;
+}
+
+/* Button Styles*/
+button {
+    font-size: 16px;
+    margin: 10px 0px 10px;
+    padding: 5px;
+    width: 60%;
+    transition: .3s;
+}
+button:hover {
+    background-color: #333;
+    color: white;
+    box-shadow: 10px 10px 50px gray;
+}
+button:active{
+    background-color: gray;
+}
+#welcome {
+    transition: .5s ease-out;
+    text-transform: uppercase;
+    animation-name: glowing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: 20px;
+}
+@keyframes glowing {
+    0% {
+        text-shadow: 1px 1px 10px cyan; 
+        font-size: 20px;
+    }
+    25% {
+        text-shadow: -5px 10px 15px darkcyan;
+    }
+    50% {
+        text-shadow: -10px 20px 10px yellow;
+    }
+    75% {
+        text-shadow: -5px 10px 15px darkcyan ;
+    }
+    100% {
+        text-shadow: 0px 0px 10px cyan;
+        font-size: 20px;
+    }
+}
